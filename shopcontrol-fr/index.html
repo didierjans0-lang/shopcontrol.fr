@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopControl France - Solutions Antivol Professionnelles pour le Commerce</title>
+  <meta name="description" content="ShopControl, sp&eacute;cialiste europ&eacute;en en solutions antivol pour commerces. &Eacute;tiquettes, badges, d&eacute;tacheurs et syst&egrave;mes de s&eacute;curit&eacute; EAS pour supermarch&eacute;s, boutiques mode et pharmacies.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header__inner">
+    <a href="/" class="logo"><img src="img/logo-small.png" alt="ShopControl" style="height:40px;display:inline-block;vertical-align:middle;margin-right:8px"><span style="vertical-align:middle">ShopControl.fr</span></a>
+    <button class="hamburger" onclick="document.querySelector('.nav').classList.toggle('active')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="#solutions">Solutions</a>
+      <a href="#secteurs">Secteurs</a>
+      <a href="pages/blog.html">Conseils</a>
+      <a href="pages/contact.html">Contact</a>
+      <a href="https://shopcontrol.eu/fr" class="nav__cta" target="_blank">Boutique en ligne &rarr;</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__grid">
+      <div>
+        <div class="hero__badge">Livraison en France sous 5-10 jours</div>
+        <h1>Prot&eacute;gez votre commerce contre le vol. Simplement.</h1>
+        <p>ShopControl fournit des solutions antivol professionnelles aux commerces fran&ccedil;ais depuis la Belgique. Qualit&eacute; europ&eacute;enne, prix comp&eacute;titifs, livraison rapide.</p>
+        <div class="hero__buttons">
+          <a href="https://shopcontrol.eu/fr" class="btn btn--primary btn--lg" target="_blank">D&eacute;couvrir nos produits &rarr;</a>
+          <a href="#secteurs" class="btn btn--outline btn--lg">Votre secteur</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__visual-placeholder">&#128274;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container">
+    <div class="stats__grid">
+      <div class="fade-in">
+        <div class="stat__number">4,7 Mrd &euro;</div>
+        <div class="stat__label">Pertes li&eacute;es au vol en France par an</div>
+      </div>
+      <div class="fade-in">
+        <div class="stat__number">60%</div>
+        <div class="stat__label">R&eacute;duction moyenne du vol avec nos solutions</div>
+      </div>
+      <div class="fade-in">
+        <div class="stat__number">2 500+</div>
+        <div class="stat__label">Commerces prot&eacute;g&eacute;s en Europe</div>
+      </div>
+      <div class="fade-in">
+        <div class="stat__number">48h</div>
+        <div class="stat__label">Exp&eacute;dition rapide depuis l'Europe</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTUALITES / NEWS TICKER -->
+<section class="section" id="actualites">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">Actualit&eacute;s</span>
+      <h2>Vol en magasin en France : les derni&egrave;res infos</h2>
+      <p class="subtitle">Suivez l'actualit&eacute; du vol en commerce de d&eacute;tail en France. Mis &agrave; jour r&eacute;guli&egrave;rement.</p>
+    </div>
+    <div class="news-ticker" id="news-ticker">
+      <!-- Items loaded dynamically from news.json -->
+    </div>
+    <div class="text-center" style="margin-top:32px">
+      <a href="pages/blog.html" class="btn btn--outline">Tous nos articles &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTIONS / FEATURES -->
+<section class="section" id="solutions">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">Nos Solutions</span>
+      <h2>Tout ce qu'il faut pour s&eacute;curiser votre commerce</h2>
+      <p class="subtitle">Des &eacute;tiquettes antivol aux d&eacute;tacheurs magn&eacute;tiques, nous proposons une gamme compl&egrave;te de produits de s&eacute;curit&eacute; EAS pour tous types de commerces.</p>
+    </div>
+    <div class="features__grid">
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#127991;&#65039;</div>
+        <h3>&Eacute;tiquettes Antivol (RF)</h3>
+        <p>&Eacute;tiquettes souples RF 8,2 MHz en diff&eacute;rentes tailles (3x3, 4x4, 5x5 cm). Blanches, noires ou code-barres. Vendues par rouleaux de 1 000 pi&egrave;ces.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128296;</div>
+        <h3>Antivols Rigides (Hardtags)</h3>
+        <p>Badges antivol professionnels en diff&eacute;rentes tailles. Golf tags, mini tags et tags sp&eacute;cialis&eacute;s pour textiles, bouteilles et accessoires.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128275;</div>
+        <h3>D&eacute;tacheurs Magn&eacute;tiques</h3>
+        <p>D&eacute;tacheurs puissants pour retirer les antivols rigides en caisse. Mod&egrave;les standard et super pour un usage intensif en magasin.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128225;</div>
+        <h3>D&eacute;sactivateurs</h3>
+        <p>Pads de d&eacute;sactivation AM et RF pour neutraliser les &eacute;tiquettes souples au passage en caisse. Int&eacute;gration facile au comptoir.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#127870;</div>
+        <h3>Protection Bouteilles</h3>
+        <p>BottleTags sp&eacute;cialement con&ccedil;us pour s&eacute;curiser les bouteilles de vin, spiritueux et parfums haut de gamme.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128230;</div>
+        <h3>Kits D&eacute;marrage</h3>
+        <p>Packs complets adapt&eacute;s &agrave; votre secteur : supermarch&eacute;, mode, pharmacie. Tout le n&eacute;cessaire pour d&eacute;marrer imm&eacute;diatement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTEURS -->
+<section class="section section--alt" id="secteurs">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">Secteurs</span>
+      <h2>Des solutions adapt&eacute;es &agrave; votre commerce</h2>
+      <p class="subtitle">Chaque secteur a ses propres d&eacute;fis en mati&egrave;re de vol. Nous proposons des solutions sur mesure pour chacun d'entre eux.</p>
+    </div>
+    <div class="sectors__grid">
+      <a href="pages/secteur-supermarche.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128722;</div>
+          <h3>Supermarch&eacute;</h3>
+          <p>Alcool, cosmétiques, produits frais. Prot&eacute;gez les articles &agrave; forte d&eacute;marque.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+      <a href="pages/secteur-mode.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128087;</div>
+          <h3>Mode &amp; Textile</h3>
+          <p>V&ecirc;tements, accessoires, chaussures. Hardtags discrets et efficaces.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+      <a href="pages/secteur-optique.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128083;</div>
+          <h3>Optique &amp; Luxe</h3>
+          <p>Lunettes, montres, bijoux. S&eacute;curisez les articles de grande valeur.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+      <a href="pages/secteur-supermarche.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128138;</div>
+          <h3>Pharmacie &amp; Parfumerie</h3>
+          <p>M&eacute;dicaments OTC, parfums, cosm&eacute;tiques haut de gamme.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+      <a href="pages/secteur-supermarche.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128218;</div>
+          <h3>Librairies &amp; M&eacute;diath&egrave;ques</h3>
+          <p>Livres, DVD, jeux vid&eacute;o. &Eacute;tiquettes EM et RF adapt&eacute;es.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+      <a href="pages/secteur-supermarche.html" class="sector-card fade-in">
+        <div class="sector-card__content">
+          <div class="sector-card__icon">&#128295;</div>
+          <h3>Bricolage &amp; Jardinerie</h3>
+          <p>Outils, &eacute;quipements, produits de valeur. Tags robustes pour environnement exigeant.</p>
+        </div>
+        <div class="sector-card__arrow">&nearr;</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- POURQUOI SHOPCONTROL -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">Pourquoi ShopControl</span>
+      <h2>La diff&eacute;rence ShopControl</h2>
+    </div>
+    <div class="features__grid">
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#127466;&#127482;</div>
+        <h3>Qualit&eacute; europ&eacute;enne</h3>
+        <p>Tous nos produits sont conformes aux normes europ&eacute;ennes. Nous s&eacute;lectionnons rigoureusement chaque fournisseur pour garantir une fiabilit&eacute; maximale.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128176;</div>
+        <h3>Prix comp&eacute;titifs</h3>
+        <p>En achetant directement chez nous, vous &eacute;liminez les interm&eacute;diaires. R&eacute;sultat : des prix 20 &agrave; 40% inf&eacute;rieurs aux revendeurs traditionnels.</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128666;</div>
+        <h3>Livraison gratuite d&egrave;s 200 &euro; HT</h3>
+        <p>Exp&eacute;dition depuis notre entrep&ocirc;t europ&eacute;en. Livraison en France m&eacute;tropolitaine sous 5 &agrave; 10 jours ouvrables avec suivi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section--alt" id="temoignages">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">T&eacute;moignages</span>
+      <h2>Ils nous font confiance</h2>
+    </div>
+    <div class="testimonials__grid">
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&laquo; Depuis que nous utilisons les &eacute;tiquettes ShopControl, nous avons constat&eacute; une baisse significative de la d&eacute;marque inconnue. Le rapport qualit&eacute;-prix est excellent. &raquo;</p>
+        <div class="testimonial-card__author">Marie L.</div>
+        <div class="testimonial-card__role">G&eacute;rante supermarch&eacute;, Lyon</div>
+      </div>
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&laquo; Livraison rapide et produits de qualit&eacute; professionnelle. Les hardtags sont discrets sur nos v&ecirc;tements et le d&eacute;tacheur est tr&egrave;s efficace. &raquo;</p>
+        <div class="testimonial-card__author">Thomas D.</div>
+        <div class="testimonial-card__role">Directeur boutique mode, Paris</div>
+      </div>
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&laquo; Le kit d&eacute;marrage nous a permis d'&eacute;quiper notre pharmacie en une journ&eacute;e. Simple &agrave; installer, efficace imm&eacute;diatement. Je recommande. &raquo;</p>
+        <div class="testimonial-card__author">Sophie M.</div>
+        <div class="testimonial-card__role">Pharmacienne, Marseille</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG PREVIEW -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-48">
+      <span class="tag">Conseils &amp; Actualit&eacute;s</span>
+      <h2>Nos derniers articles</h2>
+    </div>
+    <div class="blog__grid">
+      <a href="pages/blog.html" class="blog-card fade-in">
+        <div class="blog-card__image">&#128200;</div>
+        <div class="blog-card__content">
+          <div class="blog-card__tag">Statistiques</div>
+          <h3>Vol en magasin en France : les chiffres cl&eacute;s 2025</h3>
+          <p>La d&eacute;marque inconnue co&ucirc;te 4,7 milliards d'euros par an au commerce fran&ccedil;ais. D&eacute;couvrez les secteurs les plus touch&eacute;s.</p>
+          <span class="blog-card__link">Lire l'article &rarr;</span>
+        </div>
+      </a>
+      <a href="pages/blog.html" class="blog-card fade-in">
+        <div class="blog-card__image">&#128161;</div>
+        <div class="blog-card__content">
+          <div class="blog-card__tag">Guide pratique</div>
+          <h3>Comment choisir le bon syst&egrave;me antivol pour votre commerce</h3>
+          <p>RF ou AM ? &Eacute;tiquettes souples ou hardtags ? Notre guide complet pour faire le bon choix selon votre activit&eacute;.</p>
+          <span class="blog-card__link">Lire l'article &rarr;</span>
+        </div>
+      </a>
+      <a href="pages/blog.html" class="blog-card fade-in">
+        <div class="blog-card__image">&#128176;</div>
+        <div class="blog-card__content">
+          <div class="blog-card__tag">ROI</div>
+          <h3>Calculer le retour sur investissement de vos solutions antivol</h3>
+          <p>Investir dans la s&eacute;curit&eacute; est rentable. Voici comment calculer le ROI de votre syst&egrave;me antivol en 3 &eacute;tapes.</p>
+          <span class="blog-card__link">Lire l'article &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Pr&ecirc;t &agrave; prot&eacute;ger votre commerce ?</h2>
+    <p>D&eacute;couvrez notre catalogue complet. Livraison gratuite d&egrave;s 200 &euro; HT partout en France m&eacute;tropolitaine.</p>
+    <a href="https://shopcontrol.eu/fr" class="btn btn--white btn--lg" target="_blank">Voir nos produits &rarr;</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="logo">Shop<span>Control</span>.fr</div>
+        <p>Sp&eacute;cialiste europ&eacute;en en solutions antivol pour le commerce de d&eacute;tail. Qualit&eacute; professionnelle, prix comp&eacute;titifs.</p>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">&Eacute;tiquettes antivol</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">Antivols rigides</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">D&eacute;tacheurs</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">Kits d&eacute;marrage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Secteurs</h4>
+        <ul>
+          <li><a href="pages/secteur-supermarche.html">Supermarch&eacute;</a></li>
+          <li><a href="pages/secteur-mode.html">Mode &amp; Textile</a></li>
+          <li><a href="pages/secteur-optique.html">Optique &amp; Luxe</a></li>
+          <li><a href="pages/blog.html">Conseils</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>contact@shopcontrol.eu</li>
+          <li>ShopControl BV</li>
+          <li>Kuringerstenweg 333</li>
+          <li>3511 Hasselt, Belgique</li>
+          <li>TVA : BE0834243649</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 ShopControl BV. Tous droits r&eacute;serv&eacute;s.</span>
+      <span><a href="https://shopcontrol.eu/fr/policies/privacy-policy" target="_blank">Politique de confidentialit&eacute;</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL ANIMATION -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Load news ticker from news.json
+  const months = ['jan','f&eacute;v','mars','avr','mai','juin','juil','ao&ucirc;t','sep','oct','nov','d&eacute;c'];
+  fetch('news.json')
+    .then(r => r.json())
+    .then(items => {
+      const ticker = document.getElementById('news-ticker');
+      if (!ticker) return;
+      ticker.innerHTML = items.slice(0, 6).map(item => {
+        const d = new Date(item.date);
+        return `<div class="news-item fade-in visible">
+          <div class="news-item__date">
+            <span class="news-item__day">${d.getDate()}</span>
+            <span class="news-item__month">${months[d.getMonth()]}</span>
+          </div>
+          <div class="news-item__content">
+            <span class="news-item__badge">${item.badge}</span>
+            <h4>${item.title}</h4>
+            <p>${item.summary}</p>
+            <div class="news-item__source">Source : ${item.source}</div>
+          </div>
+        </div>`;
+      }).join('');
+    })
+    .catch(() => {});
+</script>
+
+</body>
+</html>

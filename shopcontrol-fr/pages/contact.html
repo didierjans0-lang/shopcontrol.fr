@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | ShopControl.fr</title>
+  <meta name="description" content="Contactez ShopControl pour vos questions sur nos solutions antivol. &Eacute;mail : contact@shopcontrol.eu. Si&egrave;ge : Hasselt, Belgique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header__inner">
+    <a href="../" class="logo">Shop<span>Control</span>.fr</a>
+    <button class="hamburger" onclick="document.querySelector('.nav').classList.toggle('active')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="../#solutions">Solutions</a>
+      <a href="../#secteurs">Secteurs</a>
+      <a href="blog.html">Conseils</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://shopcontrol.eu/fr" class="nav__cta" target="_blank">Boutique en ligne &rarr;</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="contact-hero">
+  <div class="container">
+    <h1>Contactez-nous</h1>
+    <p class="subtitle">Une question sur nos solutions antivol ? Nous sommes l&agrave; pour vous aider.</p>
+  </div>
+</section>
+
+<!-- CONTACT INFO -->
+<section class="contact-grid">
+  <div class="container">
+    <div class="features__grid">
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128231;</div>
+        <h3>Par Email</h3>
+        <p><a href="mailto:contact@shopcontrol.eu" style="color: #0066cc; text-decoration: none;">contact@shopcontrol.eu</a></p>
+        <p style="font-size: 0.9rem; color: #666;">R&eacute;ponse sous 24h</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128205;</div>
+        <h3>Adresse</h3>
+        <p>ShopControl BV<br>Kuringerstenweg 333<br>3511 Hasselt, Belgique</p>
+      </div>
+      <div class="feature-card fade-in">
+        <div class="feature-card__icon">&#128197;</div>
+        <h3>Horaires</h3>
+        <p>Lundi au vendredi<br>9h - 17h (CET)</p>
+        <p style="font-size: 0.9rem; color: #666;">TVA : BE0834243649</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Pr&ecirc;t &agrave; prot&eacute;ger votre commerce ?</h2>
+    <p>Explorez notre catalogue complet et passez votre commande en ligne. Service client disponible pour toute question.</p>
+    <a href="https://shopcontrol.eu/fr" class="btn btn--white btn--lg" target="_blank">Aller &agrave; la boutique &rarr;</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="logo">Shop<span>Control</span>.fr</div>
+        <p>Sp&eacute;cialiste europ&eacute;en en solutions antivol pour le commerce de d&eacute;tail. Qualit&eacute; professionnelle, prix comp&eacute;titifs.</p>
+      </div>
+      <div>
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">&Eacute;tiquettes antivol</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">Antivols rigides</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">D&eacute;tacheurs</a></li>
+          <li><a href="https://shopcontrol.eu/fr" target="_blank">Kits d&eacute;marrage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Secteurs</h4>
+        <ul>
+          <li><a href="secteur-supermarche.html">Supermarch&eacute;</a></li>
+          <li><a href="secteur-mode.html">Mode &amp; Textile</a></li>
+          <li><a href="secteur-optique.html">Optique &amp; Luxe</a></li>
+          <li><a href="blog.html">Conseils</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>contact@shopcontrol.eu</li>
+          <li>ShopControl BV</li>
+          <li>Kuringerstenweg 333</li>
+          <li>3511 Hasselt, Belgique</li>
+          <li>TVA : BE0834243649</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 ShopControl BV. Tous droits r&eacute;serv&eacute;s.</span>
+      <span><a href="https://shopcontrol.eu/fr/policies/privacy-policy" target="_blank">Politique de confidentialit&eacute;</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL ANIMATION -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

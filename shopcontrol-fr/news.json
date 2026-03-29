@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-03-27",
+    "title": "Hausse de 12% des vols \u00e0 l'\u00e9talage en \u00cele-de-France au premier trimestre 2026",
+    "summary": "Les commerces de proximit\u00e9 parisiens signalent une augmentation significative des vols, particuli\u00e8rement dans les secteurs alimentation et cosm\u00e9tiques.",
+    "source": "Le Figaro",
+    "badge": "Alerte"
+  },
+  {
+    "date": "2026-03-22",
+    "title": "La grande distribution investit massivement dans les technologies antivol",
+    "summary": "Carrefour et Leclerc annoncent un renforcement de leurs dispositifs de s\u00e9curit\u00e9 en magasin face \u00e0 la recrudescence des vols.",
+    "source": "LSA Commerce",
+    "badge": "Tendance"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "Marseille : un r\u00e9seau de voleurs \u00e0 l'\u00e9talage d\u00e9mantel\u00e9",
+    "summary": "La police a interpell\u00e9 un groupe organis\u00e9 responsable de vols r\u00e9p\u00e9t\u00e9s dans plusieurs enseignes de la r\u00e9gion PACA.",
+    "source": "France Info",
+    "badge": "Faits divers"
+  },
+  {
+    "date": "2026-03-14",
+    "title": "Les pharmacies fran\u00e7aises de plus en plus cibl\u00e9es par le vol",
+    "summary": "Parfums, cosm\u00e9tiques et produits d'hygi\u00e8ne : les officines font face \u00e0 une d\u00e9marque inconnue en forte hausse.",
+    "source": "Le Moniteur des Pharmacies",
+    "badge": "Secteur"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "\u00c9tude : le co\u00fbt moyen du vol par magasin atteint 45 000 \u20ac par an en France",
+    "summary": "Selon le dernier barom\u00e8tre du CNCC, la d\u00e9marque inconnue repr\u00e9sente en moyenne 1,4% du chiffre d'affaires des commerces fran\u00e7ais.",
+    "source": "CNCC",
+    "badge": "Statistiques"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "Lyon : les commer\u00e7ants du centre-ville s'organisent contre le vol",
+    "summary": "Une association de commer\u00e7ants lyonnais lance un programme collectif de s\u00e9curisation avec \u00e9tiquettes antivol et formation du personnel.",
+    "source": "Le Progr\u00e8s",
+    "badge": "Initiative"
+  }
+]
