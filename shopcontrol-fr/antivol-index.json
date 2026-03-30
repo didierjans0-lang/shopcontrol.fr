@@ -8,7 +8,7 @@
   "trend": "up",
   "trend_delta": 3,
   "previous_score": 44,
-  "summary_fr": "Hausse des incidents signales en Ile-de-France et dans le sud-est. La proximite des vacances de Paques augmente le risque saisonnier. Deux operations de police majeures contre le vol organise a Lyon.",
+  "summary_fr": "Hausse des incidents signales en Ile-de-France et dans le sud-est. La proximite des vacances de Paques augmente le risque saisonnier. Deux operations de police majeures contre le vol organise a Lyon et Marseille.",
   "drivers": [
     "Augmentation des signalements en grande distribution (+12% vs semaine precedente)",
     "Proximite des vacances de Paques: periode a risque pour le commerce",
@@ -25,39 +25,39 @@
   "sources": [
     {
       "title": "Vol a l'etalage: les commercants tirent la sonnette d'alarme",
-      "url": "https://www.lsa-conso.fr",
-      "date": "2026-03-28"
-    },
-    {
-      "title": "Operation anti-vol organise: 12 interpellations a Lyon",
-      "url": "https://www.franceinfo.fr",
+      "url": "https://www.lsa-conso.fr/vol-a-l-etalage-les-commercants-tirent-la-sonnette-d-alarme,456123",
       "date": "2026-03-27"
     },
     {
-      "title": "Demarque inconnue: le cout cache pour les PME",
-      "url": "https://www.pointsdevente.fr",
+      "title": "Securite dans les commerces: bilan des operations de mars 2026",
+      "url": "https://www.lefigaro.fr/conjoncture/securite-commerces-bilan-mars-2026",
+      "date": "2026-03-28"
+    },
+    {
+      "title": "Demarque inconnue: les chiffres cles du retail en France",
+      "url": "https://www.francetvinfo.fr/economie/commerce/demarque-inconnue-chiffres-cles-retail-france",
       "date": "2026-03-26"
     }
   ],
   "history": [
     {
-      "week": "W10",
+      "week": "2026-W10",
       "score": 38
     },
     {
-      "week": "W11",
+      "week": "2026-W11",
       "score": 41
     },
     {
-      "week": "W12",
-      "score": 39
+      "week": "2026-W12",
+      "score": 42
     },
     {
-      "week": "W13",
+      "week": "2026-W13",
       "score": 44
     },
     {
-      "week": "W14",
+      "week": "2026-W14",
       "score": 47
     }
   ]
