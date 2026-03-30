@@ -1,0 +1,64 @@
+{
+  "week": "2026-W14",
+  "date": "2026-03-30",
+  "score": 47,
+  "level": "Eleve",
+  "level_en": "Elevated",
+  "color": "#f59e0b",
+  "trend": "up",
+  "trend_delta": 3,
+  "previous_score": 44,
+  "summary_fr": "Hausse des incidents signales en Ile-de-France et dans le sud-est. La proximite des vacances de Paques augmente le risque saisonnier. Deux operations de police majeures contre le vol organise a Lyon.",
+  "drivers": [
+    "Augmentation des signalements en grande distribution (+12% vs semaine precedente)",
+    "Proximite des vacances de Paques: periode a risque pour le commerce",
+    "Operations de police contre le vol organise a Lyon et Marseille",
+    "Nouvelle etude LSA sur la demarque inconnue en France"
+  ],
+  "breakdown": {
+    "volume": 52,
+    "severity": 45,
+    "geographic_spread": 40,
+    "trend": 55,
+    "seasonal_risk": 45
+  },
+  "sources": [
+    {
+      "title": "Vol a l'etalage: les commercants tirent la sonnette d'alarme",
+      "url": "https://www.lsa-conso.fr",
+      "date": "2026-03-28"
+    },
+    {
+      "title": "Operation anti-vol organise: 12 interpellations a Lyon",
+      "url": "https://www.franceinfo.fr",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Demarque inconnue: le cout cache pour les PME",
+      "url": "https://www.pointsdevente.fr",
+      "date": "2026-03-26"
+    }
+  ],
+  "history": [
+    {
+      "week": "W10",
+      "score": 38
+    },
+    {
+      "week": "W11",
+      "score": 41
+    },
+    {
+      "week": "W12",
+      "score": 39
+    },
+    {
+      "week": "W13",
+      "score": 44
+    },
+    {
+      "week": "W14",
+      "score": 47
+    }
+  ]
+}
